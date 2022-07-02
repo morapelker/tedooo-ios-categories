@@ -1,10 +1,10 @@
 import Combine
 
 public struct Category {
-    let id: String
-    let text: String
-    let baseImage: UIImage?
-    let image: String
+    public let id: String
+    public let text: String
+    public let baseImage: UIImage?
+    public let image: String
 }
 
 public class CategoriesProvider {

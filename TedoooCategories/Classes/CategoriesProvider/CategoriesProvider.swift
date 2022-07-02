@@ -3,6 +3,7 @@ import Combine
 public struct Category {
     let id: String
     let text: String
+    let baseImage: UIImage?
     let image: String
 }
 

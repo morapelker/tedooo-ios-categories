@@ -1,4 +1,8 @@
+source 'https://github.com/morapelker/tedooo-pod-repo.git'
+
+source 'https://cdn.cocoapods.org/'
 use_frameworks!
+
 target 'TedoooCategories_Tests' do
   pod 'TedoooCategories', :path => '../'
   
